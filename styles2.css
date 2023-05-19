@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    background-color: lightblue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, 1fr); /* Two rows */
+    grid-gap: 20px; /* Add some gap between grid items */
+}
+
+nav {
+    grid-column: 1 / span 2; /* Place the navigation across both columns */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid gold;
+    padding: 10px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a {
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-gap: 20px; /* Add some gap between grid items */
+}
+
+.column-1 {
+    grid-column: 1; /* Start in the first column */
+    grid-row: 1; /* Start in the first row */
+}
+
+.column-2 {
+    grid-column: 2; /* Start in the second column */
+    grid-row: 1; /* Start in the first row */
+}
+
+.images img {
+    display: block;
+    margin: 20 auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Maintain the aspect ratio and fit the image within the container */
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}

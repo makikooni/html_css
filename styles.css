@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid gold;
+    padding: 10px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a {
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+.mainimage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.mainimage img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 75%;
+    border: 2px solid gold;
+}
+
+
+
+h3 {
+    color: gold;
+    text-align: center;
+}
+
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 16px;
+    text-align: center
+}
+
+ul {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 16px;
+    text-align: left
+}
+
+ol {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 16px;
+    text-align: left
+}
+
+.likes-and-dislikes {
+    display: flex;
+    justify-content: space-between;
+}
+.likes-and-dislikes > div {
+    flex-basis: 45%;
+}
